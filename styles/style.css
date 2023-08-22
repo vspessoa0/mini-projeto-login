@@ -42,7 +42,7 @@ section#login{
     transition-timing-function: ease;
 }
 
-#login > #image{
+section#login > div#image{
     display: block;
     background: #5f2c82 url(../images/pexels-scott-webb-305816.jpg) no-repeat;
     background-size: cover;
@@ -50,7 +50,16 @@ section#login{
     height: 200px;
 }
 
-#login > #form{
+section#login > div#form{
     display: block;
     padding: 10px;
+}
+
+div#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form > p{
+    font-size: 0.8em;
 }
