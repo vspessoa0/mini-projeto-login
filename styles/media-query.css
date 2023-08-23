@@ -20,6 +20,15 @@
         float: right;
         width: 70%;
     }
+    
+    div#form > p{
+        font-size: 1.1em;
+    }
+
+    form{
+        position: relative;
+        bottom: -80px;
+    }
 }
 
 
@@ -49,5 +58,10 @@
 
     div#form > p{
         font-size: 1.2em;
+    }
+
+    form{
+        position: relative;
+        bottom: -80px;
     }
 }
